@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    position: relative;
+    width: 1000px;
+    margin: 150px auto 0;
+    height: auto;
+    display: grid;
+    font-style: sans-serif;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 440px;
+}
+
+.card-content {
+    position: absolute;
+    color: white;
+    width: 100%;
+    padding: 20%;
+    box-sizing: border-box;
+}
+
+.card1 {
+    position: relative;
+    border-radius: 2%;
+    background-color: rgb(253, 144, 42);
+    font-family: 'Big Shoulders Display', cursive;
+    /* font-family: 'Lexend Deca', sans-serif; */
+}
+
+.card2 {
+    position: relative;
+    background-color: rgb(3, 117, 134);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.card3 {
+    position: relative;
+    border-radius: 2%;
+    background-color: rgba(2, 55, 58, 0.97);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.orange {
+    border-radius: 20px;
+    border: 1px solid;
+    background: white;
+    color: hsl(31, 77%, 52%);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 45px;
+    cursor: pointer;
+}
+
+.orange:active {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.light {
+    border-radius: 20px;
+    border: 1px solid;
+    background: white;
+    color: hsl(184, 100%, 22%);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 45px;
+    cursor: pointer;
+}
+
+.light:active {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.dark {
+    border-radius: 20px;
+    border: 1px solid;
+    background: white;
+    color: hsl(179, 100%, 13%);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 45px;
+    cursor: pointer;
+}
+
+.dark:active {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+button {
+    background: hsl(31, 77%, 52%);
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
